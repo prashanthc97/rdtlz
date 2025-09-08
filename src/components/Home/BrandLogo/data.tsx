@@ -1,22 +1,22 @@
 export const brandList = [
     {
-        image: "/images/brand/brand-logo-1.svg",
+        image: "/images/brand/icons8-aws-logo.svg",
         title: "Adobe"
     },
     {
-        image: "/images/brand/brand-logo-2.svg",
+        image: "/images/brand/icons8-azure.svg",
         title: "Figma"
     },
     {
-        image: "/images/brand/brand-logo-3.svg",
+        image: "/images/brand/icons8-google-cloud.svg",
         title: "Shopify"
     },
     {
-        image: "/images/brand/brand-logo-4.svg",
+        image: "/images/brand/icons8-salesforce.svg",
         title: "Dribble"
     },
     {
-        image: "/images/brand/brand-logo-5.svg",
+        image: "/images/brand/icons8-oracle.svg",
         title: "Webflow"
     }
 ];

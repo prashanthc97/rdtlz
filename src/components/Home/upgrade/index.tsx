@@ -8,7 +8,7 @@ const Upgrade = () => {
       <div className='container px-4'>
         <div className='grid lg:grid-cols-2 gap-10 items-center'>
           <div>
-            <p className='text-white font-medium'>Crypgo <span className='text-primary'>upgrade</span></p>
+            <p className='text-white font-medium'>RiddleTalez <span className='text-primary'>upgrade</span></p>
             <h2 className='text-white sm:text-40 text-30  font-medium mb-5'>
               Upgrade your crypto business
             </h2>

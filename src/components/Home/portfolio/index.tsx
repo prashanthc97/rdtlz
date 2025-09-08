@@ -26,16 +26,12 @@ const Portfolio = () => {
             initial={{ y: '100%', opacity: 0 }}
             transition={{ duration: 0.6 }}>
             <div className='flex flex-col gap-4'>
-              <p className='text-white font-medium'>
-                Crypto landing page <span className='text-primary'>template</span>
-              </p>
               <h2 className='text-white sm:text-40 text-30 mb-4 font-medium'>
-                Create your cryptocurrency portfolio today
+                About Us
               </h2>
             </div>
             <p className='text-muted/60 text-18'>
-              Coinbase has a variety of features that make it the best place
-              to start trading.
+              Our company blends technology, strategy, and creativity to deliver end-to-end IT services and expand into emerging industries like hospitality and healthcare.
             </p>
 
             <table className='w-full sm:w-[80%] mt-10'>

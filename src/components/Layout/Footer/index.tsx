@@ -13,7 +13,7 @@ const Footer: FC = () => {
         <div className='grid grid-cols-1 sm:grid-cols-11 lg:gap-20 md:gap-6 sm:gap-12 gap-6  pb-16'>
           <div className='lg:col-span-4 md:col-span-6 col-span-6 flex flex-col gap-6'>
             <Logo />
-            <p className='text-white/60'>Transform your crypto business with Crypgo Framer, a template for startups and blockchain services.</p>
+            <p className='text-white/60'>Driving growth through IT solutions, cross-industry expertise, and future-ready ventures.</p>
             <div className='flex gap-6 items-center relative z-1'>
               <Link href='https://www.facebook.com/' className='group'>
                 <Icon
@@ -77,7 +77,9 @@ const Footer: FC = () => {
             </div>
           </div>
         </div>
-        <p className='text-white/40 text-center py-8 border-t border-white/20'>Design & Develop by <Link className='hover:text-primary' href={"https://getnextjstemplates.com/"}>GetNextjsTemplates.com</Link></p>
+    <p className='text-white/40 text-center py-8 border-t border-white/20'>
+      © {new Date().getFullYear()} RiddleTalez | <Link href={"https://www.riddletalez.com/"}>www.riddletalez.com</Link>
+    </p>
       </div>
     </footer>
   )

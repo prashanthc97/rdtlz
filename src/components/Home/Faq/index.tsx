@@ -4,31 +4,38 @@ import Image from 'next/image';
 import React, { useState } from 'react';// Optional: install lucide-react icons
 
 const faqData = [
-    {
-        question: "What is Crypgo?",
-        answer: "Crypgo is a cryptocurrency exchange that allows users to trade 100+ cryptocurrencies worldwide.",
-    },
-    {
-        question: "Is Crypgo available worldwide?",
-        answer: "Yes, Crypgo is accessible from most countries around the globe.",
-    },
-    {
-        question: "Which cryptocurrencies are supported on Crypgo?",
-        answer: "We support Bitcoin, Ethereum, Litecoin, and many more. Over 100 cryptocurrencies are available.",
-    },
-    {
-        question: "Is my personal information secure with Crypgo?",
-        answer: "Yes, we prioritize your security with advanced encryption and compliance protocols.",
-    },
-    {
-        question: "Are there any deposit or withdrawal fees?",
-        answer: "Our fee structure is transparent. Visit our pricing page for detailed info.",
-    },
-    {
-        question: "Does Crypgo offer advanced trading tools?",
-        answer: "Yes, Crypgo provides charts, APIs, and tools suitable for both beginners and professionals.",
-    },
+  {
+    question: "What does your company do?",
+    answer:
+      "We are a services-based company offering complete IT solutions including cloud, infrastructure, application development, and digital transformation. In addition, we have expertise across industries such as healthcare, pharma, and lifestyle ventures like cafés and restaurants.",
+  },
+  {
+    question: "Do you work with clients worldwide?",
+    answer:
+      "Yes, we serve clients across multiple countries, providing both remote and on-site support depending on project needs.",
+  },
+  {
+    question: "Which industries do you specialize in?",
+    answer:
+      "We have strong expertise in IT, healthcare, pharma, retail, finance, and hospitality. Our diverse portfolio allows us to adapt to almost any domain.",
+  },
+  {
+    question: "How do you ensure security and compliance?",
+    answer:
+      "We follow industry best practices, use advanced encryption technologies, and comply with global standards to keep your business data secure.",
+  },
+  {
+    question: "Are your solutions scalable?",
+    answer:
+      "Yes, all our IT services and applications are designed to grow with your business, whether you’re a startup or a global enterprise.",
+  },
+  {
+    question: "Do you provide ongoing support?",
+    answer:
+      "Absolutely. We offer 24/7 support, maintenance, and continuous improvement services to ensure your systems run smoothly.",
+  },
 ];
+
 
 const Faq = () => {
     const [openIndex, setOpenIndex] = useState(null);
@@ -43,8 +50,8 @@ const Faq = () => {
                 <div className=" mx-auto px-4">
                     <div className="text-center mb-10">
                         <p className="text-green-400 uppercase text-sm">Popular questions</p>
-                        <h2 className="text-3xl md:text-4xl font-semibold mt-2">Learn more about Crypgo</h2>
-                        <p className="text-gray-400 mt-2">We accept 100+ cryptocurrencies around the world</p>
+                        <h2 className="text-3xl md:text-4xl font-semibold mt-2">Learn more about RiddleTalez</h2>
+                        <p className="text-gray-400 mt-2">We believe in creating a diverse business ecosystem from software and IT solutions to lifestyle ventures like cafés and restaurants.</p>
                     </div>
                     <div className="space-y-4">
                         {faqData.map((item, index) => (

@@ -23,10 +23,10 @@ const TimeLine = () => {
             transition={{ duration: 0.6 }}>
             <div className='flex flex-col gap-4'>
               <p className='text-white font-medium'>
-                We deliver <span className='text-primary'>best solution</span>
+                How We <span className='text-primary'>Work</span>
               </p>
               <h2 className='text-white sm:text-40 text-30 font-medium lg:w-80% mx-auto mb-20'>
-                One application with multiple options to give you freedom of buying & selling
+                One company, multiple possibilities. Empowering businesses at every stage:
               </h2>
             </div>
           </motion.div>
@@ -48,7 +48,7 @@ const TimeLine = () => {
                 <div className='text-right'>
                   <h5 className='text-muted text-28 mb-3'>Planning</h5>
                   <p className='text-18 text-muted/60'>
-                    Map the crypto projects scope with framer template
+                    Map business goals with our expert consultants
                   </p>
                 </div>
                 <div className='bg-light_grey/45 backdrop-blur-xs px-6 py-2 h-fit rounded-full'>
@@ -73,15 +73,15 @@ const TimeLine = () => {
                 <div className='text-left'>
                   <h5 className='text-muted text-28 mb-3'>Refinement</h5>
                   <p className='text-18 text-muted/60'>
-                  Refine & improve your crypto landing page
+                  Continuous improvement and fine-tuning of digital solutions
                   </p>
                 </div>
               </div>
               <div className='absolute lg:bottom-48 bottom-36 lg:left-0 -left-20 w-72 flex items-center gap-6'>
                 <div className='text-right'>
-                  <h5 className='text-muted text-28 mb-3'>Prototype</h5>
+                  <h5 className='text-muted text-28 mb-3'>Prototype & Build</h5>
                   <p className='text-18 text-muted/60'>
-                  Build crypto website test for your product
+                  Develop scalable, reliable applications tailored to your needs
                   </p>
                 </div>
                 <div className='bg-light_grey/45 backdrop-blur-xs px-6 py-2 h-fit rounded-full'>
@@ -106,10 +106,10 @@ const TimeLine = () => {
                 </div>
                 <div className='text-left'>
                   <h5 className='text-muted text-nowrap text-28 mb-3'>
-                    Support
+                    Scale & Support
                   </h5>
                   <p className='text-18 text-muted/60'>
-                  Deploy product live and ensure expert support
+                  Grow confidently with ongoing expert support
                   </p>
                 </div>
               </div>

@@ -22,15 +22,19 @@ const Work = () => {
   const services = [
     {
       icon: '/images/chooseus/chooseus-icon-1.svg',
-      text: 'Designed for crypto trading platforms',
+      text: 'Lifestyle & Hospitality Ventures',
     },
     {
       icon: '/images/chooseus/chooseus-icon-2.svg',
-      text: 'Kickstart your crypto website today',
+      text: 'Cross-Industry Expertise',
     },
     {
       icon: '/images/chooseus/chooseus-icon-3.svg',
-      text: 'Launch your blockchain platform today',
+      text: 'Future-Ready Solutions',
+    },
+    {
+      icon: '/images/chooseus/chooseus-icon-3.svg',
+      text: 'Complete IT Services',
     },
   ]
 
@@ -43,10 +47,10 @@ const Work = () => {
             className='lg:col-span-7 col-span-12'>
             <div className='flex flex-col gap-3'>
               <p className="text-white font-medium">
-                Why choose <span className='text-primary'>crypto</span>
+                Why Choose <span className='text-primary'>RiddleTalez</span>
               </p>
               <h2 className='sm:text-40 text-30 text-white lg:w-full md:w-70% font-medium'>
-                Features of the crypto framer mobile application
+                Features of our enterprise-grade services:
               </h2>
             </div>
             <div className='grid md:grid-cols-2 gap-7 mt-11'>

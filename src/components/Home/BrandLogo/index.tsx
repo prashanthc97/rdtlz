@@ -11,7 +11,7 @@ function BrandLogo() {
                     <div className="gap-4">
                         <div className="flex justify-center text-center py-4 relative">
                             <p className="text-white font-medium">
-                                Trusted by top <span className='text-primary'>crypto platforms</span>
+                                Trusted by leaders <span className='text-primary'>across industries</span>
                             </p>
                         </div>
 

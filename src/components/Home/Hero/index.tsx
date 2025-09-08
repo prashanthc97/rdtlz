@@ -62,13 +62,13 @@ const Hero = () => {
             <div className='flex flex-col gap-4 text-center md:text-left'>
               <div className='flex gap-6 items-center lg:justify-start justify-center'>
                 <div className='py-1.5 px-4 bg-primary/10 rounded-full border border-white/10'>
-                  <span className='text-primary font-medium'>Future of crypto trading</span>
+                  <span className='text-primary font-medium'>Shaping the Future of Businesses</span>
                 </div>
               </div>
               <h1 className='font-medium xl:text-[72px] lg:text-6xl md:text-54 sm:text-5xl text-4xl md:text-start text-center text-white'>
-                Fast and Secure Cryptocurrency Exchange
+                Innovative IT Services & Multi-Domain Solutions
               </h1>
-              <p className='text-white'>Trade cryptocurrencies with ease, security, and advanced features on our cutting-edge platform.</p>
+              <p className='text-white'>From IT consulting and software development to healthcare, pharma, and lifestyle ventures — we deliver technology-driven growth and seamless customer experiences</p>
             </div>
             <div className='flex items-center md:justify-start justify-center gap-8'>
               <Link href={"/#work"}

@@ -88,15 +88,15 @@ export const pricedeta: {
 export const portfolioData: { image: string; title: string }[] = [
   {
     image: "/images/portfolio/portfolio-icon-1.svg",
-    title: "Manage your portfolio",
+    title: "We believe in creating a diverse business ecosystem",
   },
   {
     image: "/images/portfolio/portfolio-icon-2.svg",
-    title: "Vault protection",
+    title: "We build software and IT solutions for enterprises",
   },
   {
     image: "/images/portfolio/portfolio-icon-3.svg",
-    title: "Mobile apps",
+    title: "We also cater lifestyle ventures like cafés and restaurants",
   },
 ];
 
@@ -120,19 +120,19 @@ export const perksData: {
   {
     icon: "/images/perks/peak-icon-1.svg",
     title: "24/7 Support",
-    text: "Need help? Get your requests solved quickly via support team.",
+    text: "Round-the-clock technical support to keep your business running smoothly.",
     space: "lg:mt-8",
   },
   {
     icon: "/images/perks/peak-icon-2.svg",
-    title: "Community",
-    text: "Join the conversations on our worldwide OKEx communities",
+    title: "Expertise",
+    text: "Cross-Domain proven experience across IT, healthcare, pharma, lifestyle, and hospitality sectors.",
     space: "lg:mt-14",
   },
   {
     icon: "/images/perks/peak-icon-3.svg",
-    title: "Academy",
-    text: "Learn blockchain and<br /> crypto for free.",
+    title: "Scalable Solutions",
+    text: "From startups to enterprises, our solutions are built to grow with your business.",
     space: "lg:mt-4",
   },
 ];

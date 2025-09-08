@@ -1,26 +1,25 @@
 export const GlobalReachData = [
     {
         id: 1,
-        count: 6,
-        postfix:"M+",
-        title: "Active users"
+        count: 10,
+        postfix:"+ Years",
+        title: "Industry expertise"
     },
     {
         id: 2,
         count: 247,
-        title: "Users support"
+        title: "Customer-first support"
     },
     {
         id: 3,
-        count: 160,
+        count: 15,
         postfix:"+",
-        title: "Countries"
+        title: "Domains/Industries served"
     },
     {
         id: 4,
         count: 22,
-        prefix: "$",
-        postfix:"B+",
-        title: "Trade volume"
+        postfix:"K+",
+        title: "Global Clients"
     },
 ]

@@ -4,6 +4,6 @@ export const headerData: HeaderItem[] = [
   { label: "Features", href: "/#work" },
   { label: "Benefits", href: "/#development" },
   { label: "Services", href: "/#portfolio" },
-  { label: "Why Crypgo", href: "/#upgrade" },
+  { label: "Why RiddleTalez", href: "/#upgrade" },
   { label: "FAQs", href: "/#faq" },
 ];
