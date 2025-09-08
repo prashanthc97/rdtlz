@@ -55,7 +55,7 @@ const CardSlider = () => {
     ],
   };
 
-  return 
+  return null
 };
 
 export default CardSlider;
