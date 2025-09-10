@@ -82,7 +82,7 @@ const Header: React.FC = () => {
             ))}
           </nav>
         <Link
-          href="tel:+919876543210" // replace with your actual phone number
+          href="tel:+919035400483" // replace with your actual phone number
           className='hidden lg:inline-flex items-center justify-center gap-2 text-black bg-primary/100 border border-primary hover:bg-primary/80 rounded-lg font-semibold py-2.5 px-5 z-50'
         >
           Talk to Us

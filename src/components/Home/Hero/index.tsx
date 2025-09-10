@@ -71,12 +71,30 @@ const Hero = () => {
               <p className='text-white'>From IT consulting and software development to healthcare, pharma, and lifestyle ventures — we deliver technology-driven growth and seamless customer experiences</p>
             </div>
             <div className='flex items-center md:justify-start justify-center gap-8'>
-              <Link href={"/#work"}
-                className='bg-primary hover:bg-primary/80 flex items-center gap-2 border border-primary rounded-lg font-semibold text-darkmode py-3 px-7 cursor-pointer'>
+              {/* Desktop Button (Explore More) */}
+              <Link
+                href={"/#work"}
+                className='hidden md:flex bg-primary hover:bg-primary/80 items-center gap-2 border border-primary rounded-lg font-semibold text-darkmode py-3 px-7 cursor-pointer'
+              >
                 Explore More
-                <Image src={"/images/icons/icon-arrow.svg"} alt='arrow-icon' width={20} height={20}/>
+                <Image
+                  src={"/images/icons/icon-arrow.svg"}
+                  alt='arrow-icon'
+                  width={20}
+                  height={20}
+                />
+              </Link>
+
+              {/* Mobile Button (Talk to Us) */}
+              <Link
+                href="tel:+919035400483"
+                className='flex md:hidden bg-primary hover:bg-primary/80 items-center gap-2 border border-primary rounded-lg font-semibold text-darkmode py-3 px-7 cursor-pointer'
+              >
+                Talk to Us
+                <Icon icon="mdi:phone" className="w-5 h-5" />
               </Link>
             </div>
+
           </motion.div>
           <motion.div
             {...rightAnimation}

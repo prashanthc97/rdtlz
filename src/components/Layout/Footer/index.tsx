@@ -69,11 +69,7 @@ const Footer: FC = () => {
               ))}
             </ul>
           </div>
-          <div className='lg:col-span-3 md:col-span-4 col-span-6'>
-            <h3 className='text-white text-24 font-medium mb-4'>Download app</h3>
-            <div className='flex flex-col gap-4'>
-            </div>
-          </div>
+          
         </div>
     <p className='text-white/40 text-center py-8 border-t border-white/20'>
       © {new Date().getFullYear()} RiddleTalez | <Link href={"https://www.riddletalez.com/"}>www.riddletalez.com</Link>
