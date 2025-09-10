@@ -15,7 +15,7 @@ const Footer: FC = () => {
             <Logo />
             <p className='text-white/60'>Driving growth through IT solutions, cross-industry expertise, and future-ready ventures.</p>
             <div className='flex gap-6 items-center relative z-1'>
-              <Link href='https://www.facebook.com/' className='group'>
+              <Link href='' className='group'>
                 <Icon
                   icon='fa6-brands:facebook-f'
                   width='24'
@@ -23,7 +23,7 @@ const Footer: FC = () => {
                   className='text-white group-hover:text-primary'
                 />
               </Link>
-              <Link href='https://www.instagram.com/' className='group'>
+              <Link href='' className='group'>
                 <Icon
                   icon='fa6-brands:instagram'
                   width='24'
@@ -31,7 +31,7 @@ const Footer: FC = () => {
                   className='text-white group-hover:text-primary'
                 />
               </Link>
-              <Link href='https://www.twitter.com/' className='group'>
+              <Link href='' className='group'>
                 <Icon
                   icon='fa6-brands:x-twitter'
                   width='24'
@@ -72,8 +72,6 @@ const Footer: FC = () => {
           <div className='lg:col-span-3 md:col-span-4 col-span-6'>
             <h3 className='text-white text-24 font-medium mb-4'>Download app</h3>
             <div className='flex flex-col gap-4'>
-              <Link href={"https://www.google.com/"}><Image src={"/images/footer/app-store-bedge.svg"} alt='play-store-bedge' width={126} height={23} /></Link>
-              <Link href={"https://www.apple.com/"}><Image src={"/images/footer/app-store.svg"} alt='play-store-bedge' width={126} height={23} /></Link>
             </div>
           </div>
         </div>

@@ -7,9 +7,9 @@ const Logo: React.FC = () => {
       <Image
         src="/images/logo/riddletalezwhitemin.png"
         alt="logo"
-        width={135}
-        height={32}
-        style={{ width: "auto", height: "auto" }}
+        width={70}
+        height={20}
+        style={{ width: "auto", height: "55px" }}
         quality={100}
       />
     </Link>
