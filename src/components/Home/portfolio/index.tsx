@@ -14,7 +14,7 @@ const Portfolio = () => {
             transition={{ duration: 0.6 }}
             className='lg:-ml-32'>
             <Image
-              src='/images/portfolio/img-portfolio.png'
+              src='/images/portfolio/port.png'
               alt='Crypto Portfolio'
               width={780}
               height={700}

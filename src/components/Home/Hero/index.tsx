@@ -83,7 +83,7 @@ const Hero = () => {
             className=''>
             <div className='w-full h-full'>
               <Image
-                src='/images/hero/hero-banner-img.png'
+                src='/images/hero/email.png'
                 alt='Banner'
                 width={584}
                 height={582}

@@ -37,7 +37,7 @@ const TimeLine = () => {
             <div className='md:block hidden relative'>
               <div>
                 <Image
-                  src='/images/timeline/img-timeline.png'
+                  src='/images/timeline/middle-banner.png'
                   alt='image'
                   width={1220}
                   height={1000}
